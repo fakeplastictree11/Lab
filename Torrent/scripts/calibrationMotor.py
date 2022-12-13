@@ -16,5 +16,5 @@ with open("data\\calibration\\calibration.txt") as fl:
     ax.plot([0, length_sm], [0, length_steps])
     ax.grid(True)
     ax.text(4,400, f"K = {K} st/sm")
-    plt.title("График зависимости пройденного корреткой \nрасстояния от количества шагов мотора")
+    plt.title("График зависимости пройденного кареткой \nрасстояния от количества шагов мотора")
     plt.show()
